@@ -2,11 +2,12 @@
 
 The evaluation code for maximally robust classifiers using optimization bias
 and the Fourier-Linf attack from  the paper
-**[Bridging the Gap Between Adversarial Robustness and Optimization Bias]()**
+**[Bridging the Gap Between Adversarial Robustness and Optimization 
+Bias](https://arxiv.org/abs/2102.08868)**
 , F. Faghri, D. J. Fleet, C. Vasconcelos, F. Pedregosa, N. Le Roux, 2021.
 
 ## Dependencies
-see `requirements.txt`
+See `requirements.txt`
 
 ## Run
 
@@ -63,6 +64,15 @@ experiments.
 ## Reference
 
 If you found this code useful, please cite the following paper:
+
+    @misc{faghri2021bridging,
+          title={Bridging the Gap Between Adversarial Robustness and Optimization Bias}, 
+          author={Fartash Faghri and Cristina Vasconcelos and David J. Fleet and Fabian Pedregosa and Nicolas Le Roux},
+          year={2021},
+          eprint={2102.08868},
+          archivePrefix={arXiv},
+          primaryClass={cs.LG}
+    }
 
 ## License
 
